@@ -1,0 +1,39 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+th{
+    cursor: pointer;
+}
+
+.pagination {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pagination button {
+    margin: 8px 5px;
+    padding: 6px;
+    width: 50px;
+}
+
+.pagination .active {
+    border: 1px solid black;
+    color: black;
+    border-radius: 6px;
+}
+
+#name-arrow {
+    font-size: 0.8em;
+    margin-left: 4px;
+}

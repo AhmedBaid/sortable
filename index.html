@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sortable</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <input type="text" id="search">
+    <select id="select">
+        <option value="10">10</option>
+        <option value="20" selected>20</option>
+        <option value="50">50</option>
+        <option value="100">100</option>
+        <option value="all results">all results</option>
+    </select>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Icon</th>
+                <th rowspan="2" id="name-header">Name <span id="name-arrow">↑</span></th>
+                <th rowspan="2">Full Name</th>
+                <th colspan="6">Powerstats</th>
+                <th rowspan="2">Race</th>
+                <th rowspan="2">Gender</th>
+                <th rowspan="2">Height</th>
+                <th rowspan="2">Weight</th>
+                <th rowspan="2">Place Of Birth</th>
+                <th rowspan="2">Alignment</th>
+            </tr>
+            
+            <tr>
+                <th>Combat</th>
+                <th>Durability</th>
+                <th>Intelligence</th>
+                <th>Power</th>
+                <th>Speed</th>
+                <th>Strength</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <div class="pagination"></div>
+</body>
+<script src="script.js"></script>
+</html>
